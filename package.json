@@ -4,8 +4,10 @@
   "author": "Pradeep Raj Thapaliya",
   "license": "MIT",
   "private": false,
-  "version": "0.0.1-rc-4.0",
-  "homepage": "",
+  "type": "module",
+  "version": "0.0.1-rc-5.0",
+  "homepage": "https://github.com/pradeept95/pdfmake-form-elements/blob/main/README.md",
+  "repository": "https://github.com/pradeept95/pdfmake-form-elements",
   "exports": {
     ".": {
       "import": "./dist/pdfmake-form-element.es.js",
