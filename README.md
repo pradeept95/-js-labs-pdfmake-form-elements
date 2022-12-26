@@ -221,6 +221,6 @@ This package have the following helper methods to create the form element and la
 | Helper Method | Defination  | Uses     |
 | ------------- | ----------- | -------  |
 | HTML | Converts Html document to pdf nodes. | `HTML(htmlString : string)` |
-| Section | Layout - Creates layout area and defines the section. | `Section(arrayOfRowsOrSection : any[])` |
+| Section | Layout - Creates layout area and defines the section. | `Section(arrayOfRowsOrSection : any[], gap: number)` |
 | Row | Layout - Creates layout for row and accept multiple columns. | `Row(arrayOfColumnElement : any[])` |
 | TextInput | Helper Element - Creates node for HTML like Input Element. | `TextInput(label: string, value : string)` |
