@@ -1,7 +1,11 @@
 {
   "name": "pdfmake-form-elements",
+  "description": "This library provides the form like element layout for the pdfmake (pdf make libray) without writing very complex json document defination.",
+  "author": "Pradeep Raj Thapaliya",
+  "license": "MIT",
   "private": false,
-  "version": "0.0.1-rc-1.0",
+  "version": "0.0.1-rc-4.0",
+  "homepage": "",
   "exports": {
     ".": {
       "import": "./dist/pdfmake-form-element.es.js",
@@ -10,6 +14,7 @@
   },
   "main": "./dist/pdfmake-form-element.cjs.js",
   "module": "./dist/pdfmake-form-element.es.js",
+  "types": "./dist/pdfmake-form-element.d.ts",
   "typings": "./dist/pdfmake-form-element.d.ts",
   "files": [
     "dist"
