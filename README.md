@@ -215,12 +215,12 @@ This package already contains the styles for all the element, followings are the
 | textareaStyle | Default styles applies when using 'TextareaInput' helper method. |
 | richTextEditorStyle | Default styles applies when using 'RichTextareaInput' helper method. |
 
-### Styles
+### Helper Methods
 This package have the following helper methods to create the form element and layout element
 
 | Helper Method | Defination  | Uses     |
 | ------------- | ----------- | -------  |
-| HTML | Converts Html document to pdf nodes. | HTML(htmlString : string) |
-| Section | Layout - Creates layout area and defines the section. | Section(arrayOfRowsOrSection : any[]) |
-| Row | Layout - Creates layout for row and accept multiple columns. | Row(arrayOfColumnElement : any[]) |
-| TextInput | Helper Element - Creates node for HTML like Input Element. | TextInput(label: string, value : string) |
+| HTML | Converts Html document to pdf nodes. | `HTML(htmlString : string)` |
+| Section | Layout - Creates layout area and defines the section. | `Section(arrayOfRowsOrSection : any[])` |
+| Row | Layout - Creates layout for row and accept multiple columns. | `Row(arrayOfColumnElement : any[])` |
+| TextInput | Helper Element - Creates node for HTML like Input Element. | `TextInput(label: string, value : string)` |
