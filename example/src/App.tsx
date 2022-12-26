@@ -162,13 +162,14 @@ function App() {
     pdfMake.vfs = pdfFonts.pdfMake.vfs;
     let docDef: any = { ...exampleDocumentDefination };
     docDef.pageOrientation = true ? "landscape" : "portrait";
-    (docDef.info = {
+    
+    docDef.info = {
       title: "makePdf Example",
       author: "Pradeep Raj Thapaliya",
       subject: "Form type stype",
       keywords: "makepdf, export pdf",
-    }),
-      pdfMake.createPdf(docDef).open();
+    };
+    pdfMake.createPdf(docDef).open();
   };
 
   return (
