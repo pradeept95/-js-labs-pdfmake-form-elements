@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+example/node_modules
+example/dist
+example/dist-ssr
+example/*.local
